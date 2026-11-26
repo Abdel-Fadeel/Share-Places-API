@@ -135,7 +135,7 @@ export const updatePlace: Handler = async (
     updatedPlace.title = title;
     updatedPlace.description = description;
 
-    updatedPlace.save();
+    await updatedPlace.save();
   } catch (err) {
     return next(
       new HttpError('Something went wrong, could not update place.', 500)
