@@ -2,7 +2,7 @@
 
 REST API for **[Share Places](https://github.com/Abdel-Fadeel/Share-Places)**. Users sign up, then create, update and delete places with an image and an address that is turned into map coordinates automatically. Built with **Node.js, Express and TypeScript**, using **MongoDB (Mongoose)** with transactions, JWT auth and Cloudinary image uploads.
 
-**Front end:** [Abdel-Fadeel/Share-Places](https://github.com/Abdel-Fadeel/Share-Places) · **Live app:** _coming soon_
+**Front end:** [Abdel-Fadeel/Share-Places](https://github.com/Abdel-Fadeel/Share-Places) · **Live app:** [share-places-eta.vercel.app](https://share-places-eta.vercel.app) · **API:** `https://share-places-server.onrender.com/api/v1` (Render free tier, so the first request may take up to a minute)
 
 ## Features
 
